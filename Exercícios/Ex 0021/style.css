@@ -1,0 +1,26 @@
+h1 {  /* box-level */
+    background-color: lightgray;
+    
+    height: 300px;
+    width: 300px;
+    
+    border: 10px solid darkgrey;      /* exemplos de shorthands em css. */
+
+    
+    padding: 10px;
+    
+    margin: 10px 10px 50px 10px;
+
+    outline: 5px dashed aqua;
+} 
+a {  /* inline-level*/
+    border: 10px solid rgb(236, 7, 7);
+    
+    padding: 10px;
+                                        /* exemplos de shorthands em css. */
+    margin: 10px 10px 10px 10px;
+
+    outline: 5px dashed rgb(0, 255, 255);
+}
+
+/* Podemos definir se um elemento será block ou inline ao utilizarmos o valor display: ; colocando inline ou block, conforme desejarmos. */
